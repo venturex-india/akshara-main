@@ -1,0 +1,98 @@
+.newsletter-content-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.newsletter-drive-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.newsletter-drive-card {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px 0 rgba(44, 43, 43, 0.911);
+    overflow: hidden;
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+    width: 320px; /* Bigger width */
+    transition: transform 0.3s ease;
+  }
+  
+  .newsletter-drive-card:hover {
+    box-shadow: 0px 0px 12px 8px rgb(35 47 84 / 50%);
+    transform: scale(1.03);
+  }
+  
+  .image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 180px; /* Bigger height */
+  }
+  .titlecard {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.3rem;
+  }
+
+  .image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.75rem;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    align-self: anchor-center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 0 0 0.75rem 0.75rem;
+    font-weight: bold;
+  }
+  
+  .orgbut {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.2rem;
+  }
+  
+  .menubutt {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .viewprofilebutton {
+    background-color: rgba(255, 210, 11, 0.85);
+    color: white;
+  }
+  
+  .viewprofilebutton:hover {
+    background-color: rgba(195, 166, 38, 0.85);
+  }
+  
+  .downloadprofilebutton {
+    background-color: #FF5858 ;
+    color: white;
+  }
+  
+  .downloadprofilebutton:hover {
+    background-color: #a53636;
+  }
+  
