@@ -1,5 +1,6 @@
 const walist = [
     ["Edition: June 2025", "newsletter/JUNE-2025.pdf"],
+    ["Edition: July 2025", "newsletter/JULY-2025.pdf"],
   ];
   
   window.onload = function () {
